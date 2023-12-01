@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://www.gifcen.com/wp-content/uploads/2023/01/basketball-gif-4.gif');
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    margin: 0; 
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    margin-right: 20px;
+   
+}
+header {
+    background-color: violet;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+}
+nav {
+   background-image: url('https://scontent.fdvo5-1.fna.fbcdn.net/v/t1.6435-9/99127516_1187029711645948_7309942962362777600_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=7a1959&_nc_eui2=AeEhhbcK77w23qcs3aBERAPNwFWJoaU-H_nAVYmhpT4f-XN8qxBxT5WpEH7GYGyThbe5P4fBqBcM6VVlVQYKYC8n&_nc_ohc=j-exWuh6kTgAX9phaRy&_nc_ht=scontent.fdvo5-1.fna&oh=00_AfCkz9E7pvIK2WOoJOT7KjKpPYIYMUkiHjXCFsL0YY-XtA&oe=659005B2');
+   background-size: 50%;
+   padding: 10px;
+    text-align: center;https
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #555;
+}
+
+section {
+    padding: 20px;
+}
+
+
+@keyframes fadeInBackgroundColor {
+    from {
+        background-color: #eeeeee;
+    }
+    to {
+        background-color: #333; 
+    }
+}
+
+
+#home {
+    animation: fadeInBackgroundColor 3s ease-in-out;
+}
+
+
+#about {
+    animation: fadeInBackgroundColor 3s ease-in-out;
+}
+
+#contactme {
+    animation: fadeInBackgroundColor 3s ease-in-out;
+}
+
+section {
+    padding: 20px;
+}
+.profile-image {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin-bottom: 20px;
+}
+
+.profile-image img {
+    width: 100%; 
+    height: auto; 
+}
+h2{
+    font-weight: 900;
+    color: red;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    font-weight: 900;
+}
+h4{
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    text-align: center;
+}
+h1{
+    font-weight: 900;
+   font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-style: oblique;
+}
+.icon-button {
+    display: inline-block;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .facebook-icon {
+    background-color: rgb(255, 136, 0);
+    color: white;
+    padding: 15px;
+  }
+  .phone-icon {
+    background-color: #28a745;
+    color: white;
+    padding: 15px;
+  }
+  .icon-button {
+    display: inline-block;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .email-icon {
+    background-color: rgb(76, 0, 255);
+    color: white;
+    padding: 15px;
+  }
+  .email-form {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .email-input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  .subscribe-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

@@ -1,0 +1,17 @@
+<h2>CONTACT ME ANYTIME.</h2>
+<button class="icon-button email-icon" onclick="showEmailForm()">✉</button>
+ <button class="icon-button facebook-icon" onclick="window.location.href='https://www.facebook.com/profile.php?id=100081189414573'">F</button>
+<button class="icon-button phone-icon" onclick="window.location.href='tel:+639309354237'">☎</button>
+ <div id="emailForm" class="email-form" style="display: none;">
+   <label for="email" style="font-size: 18px;">Please Enter Your Email Below:</label>
+   <form action="#" method="post">
+     <input type="email" id="email" name="email" class="email-input" placeholder="Your email address" required>
+     <button type="submit" class="subscribe-button">SEND</button>
+   </form>
+ </div>
+ <script>
+    function showEmailForm() {
+      var emailForm = document.getElementById('emailForm');
+      emailForm.style.display = emailForm.style.display === 'none' ? 'block' : 'none';
+    }
+  </script>
